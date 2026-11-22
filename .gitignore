@@ -1,0 +1,9 @@
+venv
+media
+mscripts
+__pycache__
+*.mp4
+.files
+users.db
+.env
+*.db

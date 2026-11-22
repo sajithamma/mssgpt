@@ -1,0 +1,90 @@
+.watermark {
+    opacity: 0;
+}
+
+
+body {
+
+
+    background-image: url('/public/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#message-composer {
+    border: 0.5px solid #078309;
+}
+
+#welcome-screen img {
+    filter: drop-shadow(1px 1px 1px #108f02);
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #F3F6F8;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0A66C2;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #004182;
+}
+
+/* Style for the chat input field */
+.cl-input-container {
+    position: relative;
+    border: 2px solid #0A66C2;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 #0A66C233;
+}
+
+/* Adjust input field inside the container */
+.cl-input-container .cl-input {
+    background-color: #F3F6F8 !important;
+    color: #191919 !important;
+    border: none !important;
+}
+
+/* Style for the send button */
+.cl-send-button {
+    color: #0A66C2 !important;
+}
+
+#chat-submit {
+    background-color: #0A66C2 !important;
+}
+
+/* Style for buttons in suggested questions */
+.cl-suggested-question {
+    border: 1px solid #0A66C2 !important;
+    background-color: #F3F6F8 !important;
+    color: #191919 !important;
+}
+
+.cl-suggested-question:hover {
+    background-color: #E6F0FA !important;
+    border-color: #004182 !important;
+    color: #191919 !important;
+}
+
+div[data-step-type="assistant_message"] a {
+    color: green !important;
+    text-decoration: underline !important;
+}
+
+img[src="public/whatsapplogo.png"] {
+    /* Your styles here */
+    width: 50px !important;
+    height: auto !important;
+
+}
